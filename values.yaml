@@ -4,7 +4,7 @@ image:
   repository: 021788526072.dkr.ecr.ap-northeast-2.amazonaws.com/abp-2
   pullPolicy: IfNotPresent
   # 배포할 이미지 태그를 명시
-  tag: "8bf1898"
+  tag: "a27e93a"
 
 service:
   type: LoadBalancer
