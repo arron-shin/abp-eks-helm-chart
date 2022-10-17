@@ -4,12 +4,15 @@ image:
   repository: 021788526072.dkr.ecr.ap-northeast-2.amazonaws.com/abp-2
   pullPolicy: IfNotPresent
   # 배포할 이미지 태그를 명시
-  tag: "a27e93a"
+  tag: "86383e9"
 
 service:
   type: LoadBalancer
   port: 8080
 
+ingress:
+  enabled: false
+  
 autoscaling:
   enabled: false
   minReplicas: 2

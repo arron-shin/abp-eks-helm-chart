@@ -1,0 +1,8 @@
+loki:
+  enabled: true
+  persistence:
+    enabled: true
+    size: 1Gi
+         
+fluent-bit:                                                         
+  enabled: true
