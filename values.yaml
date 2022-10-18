@@ -3,17 +3,8 @@ replicaCount: 2
 image:
   repository: 021788526072.dkr.ecr.ap-northeast-2.amazonaws.com/abp-2
   pullPolicy: IfNotPresent
-  tag: "7311068"
+  tag: "f413c48"
 
 service:
   type: LoadBalancer
   port: 8080
-
-ingress:
-  enabled: false
-
-autoscaling:
-  enabled: false
-  minReplicas: 2
-  maxReplicas: 10
-  targetCPUUtilizationPercentage: 50

@@ -6,9 +6,7 @@ metadata:
   labels:
     app: abp-backend-app
 spec:
-  {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
-  {{- end }}
   selector:
     matchLabels:
       app: abp-backend-app
