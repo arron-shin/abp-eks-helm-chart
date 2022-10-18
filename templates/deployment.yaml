@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: abp-backend-app-deployment
-  namespace: backend-app
+  namespace: backend
   labels:
     app: abp-backend-app
 spec:
