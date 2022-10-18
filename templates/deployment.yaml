@@ -29,10 +29,10 @@ spec:
           resources:
             requests:
               memory: "2Gi"
-              cpu: "1"
+              cpu: "1024m"
             limits:
               memory: "2Gi"
-              cpu: "1"
+              cpu: "2048m"
           ports:
             - name: http
               containerPort: 8080
