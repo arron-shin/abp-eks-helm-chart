@@ -3,7 +3,7 @@ replicaCount: 2
 image:
   repository: 021788526072.dkr.ecr.ap-northeast-2.amazonaws.com/abp-2
   pullPolicy: IfNotPresent
-  tag: "398d7b8"
+  tag: "4d5bc4e"
 
 service:
   type: LoadBalancer
